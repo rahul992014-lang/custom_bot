@@ -22,8 +22,12 @@ h1 {
 [data-testid="stChatMessage"] {
     border-radius: 12px;
     padding: 0.6rem 1rem !important;
-    background-color: rgba(255, 255, 255, 0.85);
-    border: 1px solid #E2E4F0;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(82, 255, 249, 1) 50%, rgba(253, 187, 45, 1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+[data-testid="stChatMessage"] p {
+    color: #1E1B4B !important;
 }
 [data-testid="stChatInput"] textarea {
     border: 1px solid #6C5CE7 !important;
