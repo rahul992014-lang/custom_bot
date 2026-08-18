@@ -6,8 +6,9 @@ st.set_page_config(page_title="Rahul's Roast Bot", page_icon="🔥", layout="cen
 st.markdown("""
 <style>
 .stApp {
-    background-color: #F7F7F8;
+    background-color: #F5F6FA;
 }
+
 h1 {
     text-align: center;
     font-size: 2.2rem;
