@@ -6,9 +6,9 @@ st.set_page_config(page_title="Rahul's Roast Bot", page_icon="🔥", layout="cen
 st.markdown("""
 <style>
 .stApp {
-    background-color: #FF0000;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(82, 255, 249, 1) 50%, rgba(253, 187, 45, 1) 100%);
 }
-
 h1 {
     text-align: center;
     font-size: 2.2rem;
@@ -16,12 +16,13 @@ h1 {
 }
 .subtitle {
     text-align: center;
-    color: #5C5C70;
+    color: #333333;
     margin-bottom: 1.5rem;
 }
 [data-testid="stChatMessage"] {
     border-radius: 12px;
     padding: 0.6rem 1rem !important;
+    background-color: rgba(255, 255, 255, 0.85);
     border: 1px solid #E2E4F0;
 }
 [data-testid="stChatInput"] textarea {
