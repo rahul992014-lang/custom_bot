@@ -6,7 +6,7 @@ st.set_page_config(page_title="Rahul's Roast Bot", page_icon="🔥", layout="cen
 st.markdown("""
 <style>
 .stApp {
-    background-color: #F5F7FA;
+    background-color: #FF0000;
 }
 
 h1 {
