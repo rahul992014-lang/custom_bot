@@ -11,15 +11,24 @@ st.markdown("""
 h1 {
     text-align: center;
     font-size: 2.2rem;
+    color: #1E1B4B;
 }
 .subtitle {
     text-align: center;
-    color: #6b6b6b;
+    color: #5C5C70;
     margin-bottom: 1.5rem;
 }
 [data-testid="stChatMessage"] {
     border-radius: 12px;
     padding: 0.6rem 1rem !important;
+    border: 1px solid #E2E4F0;
+}
+[data-testid="stChatInput"] textarea {
+    border: 1px solid #6C5CE7 !important;
+    border-radius: 10px !important;
+}
+[data-testid="stChatInput"] textarea:focus {
+    box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.25) !important;
 }
 </style>
 """, unsafe_allow_html=True)
